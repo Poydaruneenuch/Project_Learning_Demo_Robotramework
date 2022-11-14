@@ -1,5 +1,7 @@
 env
 
-*.html
+*log.html
+*output.html
+*report.html
 *.xml
 __pycache__
