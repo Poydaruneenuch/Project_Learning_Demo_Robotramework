@@ -4,10 +4,43 @@ body {
     background: #DDDDDD;
 }
 #container {
+    margin: 30px auto;
+    background: rgb(174, 211, 241);
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#contact {
+    margin: 30px auto;
+    background: rgb(174, 211, 241);
+    border: 1px solid gray;
+    padding: 20px;
+   
+}
+
+#address{
+    margin: 30px auto;
+    background: rgb(224, 140, 224);
+    border: 1px solid gray;
+    padding: 20px;
+
+}
+
+#info {
     width: 30em;
     height: 15em;
     margin: 5em auto;
-    background: white;
+    background: rgb(160, 231, 216);
     border: 1px solid gray;
     padding: 0.5em 2em;
 }
+
+.image {
+    width: 50%;
+}
+/*  width: 30em;
+ height: 15em;
+ margin: 5em auto;
+ background: white;
+ border: 1px solid gray;
+ padding: 0.5em 2em; */
