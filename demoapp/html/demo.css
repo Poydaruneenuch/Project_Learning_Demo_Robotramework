@@ -4,40 +4,68 @@ body {
     background: #DDDDDD;
 }
 #container {
-    margin: 30px auto;
+    margin: 20px auto;
     background: rgb(174, 211, 241);
     border: 1px solid gray;
     padding: 20px;
+    width: 40%;
+    height: 20%;
+
 }
 
 #contact {
-    margin: 30px auto;
-    background: rgb(174, 211, 241);
+    margin: 20px auto;
+    background: rgb(157, 218, 198);
     border: 1px solid gray;
     padding: 20px;
+    width: 40%;
    
 }
 
 #address{
-    margin: 30px auto;
+    margin: 20px auto ;
     background: rgb(224, 140, 224);
     border: 1px solid gray;
     padding: 20px;
-
-}
-
-#info {
-    width: 30em;
-    height: 15em;
-    margin: 5em auto;
-    background: rgb(160, 231, 216);
-    border: 1px solid gray;
-    padding: 0.5em 2em;
+    width: 40%;
 }
 
 .image {
-    width: 50%;
+    height: 110px;
+    border-radius: 50%;
+    float: right;
+    display: block;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    background-color: rgb(13, 13, 14);
+}
+
+.logo{
+    width: 15%;
+
+}
+
+.nav_links{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    color: white;
+}
+
 /*  width: 30em;
  height: 15em;
  margin: 5em auto;
