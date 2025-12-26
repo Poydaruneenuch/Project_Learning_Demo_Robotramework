@@ -1,4 +1,4 @@
-URL = "http://127.0.0.1:7272/"
+URL = "https://abhigyank.github.io/To-Do-List/"
 
 # ---- input ----
 LOCATOR_INPUT_USERNAME = "//*[@id='username_field']"
