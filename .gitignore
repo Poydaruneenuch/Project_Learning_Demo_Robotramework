@@ -4,4 +4,6 @@ env
 *output.html
 *report.html
 *.xml
+*.log
+*.png
 __pycache__

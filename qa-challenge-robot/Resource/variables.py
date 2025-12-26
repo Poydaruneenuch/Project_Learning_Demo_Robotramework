@@ -1,13 +1,22 @@
 URL = "https://abhigyank.github.io/To-Do-List/"
 
-# ---- input ----
-LOCATOR_INPUT_USERNAME = "//*[@id='username_field']"
-LOCATOR_INPUT_PASSWORD = "//*[@id='password_field']"
-LOCATOR_BUTTON_LOGIN = "//*[@id='login_button']"
+# ---- Locator Tab ----
+LOCATOR_TAB_ADD_ITEM = "//a[normalize-space(text())='Add Item']"
+LOCATOR_TAB_TO_DO_TASK = "//a[normalize-space(text())='To-Do Tasks']"
+LOCATOR_TAB_COMPLETED = "//a[normalize-space(text())='Completed']"
 
-TEXT_USERNAME = "demo"
-TEXT_WRONG_USERNAME = "DeMo"
-TEXT_PASSWORD = "mode"
-TEXT_WRONG_PASSWORD = "MOde"
-TEXT_SUCCESS = "Login succeeded. Now you can "
-TEXT_FAILED = "Login failed. Invalid user name and/or password."
+# Add Item
+LOCATOR_TEXT_FIELD_ADD_ITEM = "//div[@data-upgraded=',MaterialTextfield']//input[1]"
+BTN_ADD_TASK ="//i[normalize-space(text())='add']"
+
+# Input Text
+Input_New_Task_1 = "Test New Task 1"
+Input_New_Task_2 = "Test New Task 2"
+Input_New_Task_3 = "Test New Task 3"
+
+# Check box
+TASK_1= "text-1"
+TASK_2 = "text-2"
+TASK_3 = "text-3"
+
+BTN_DELETE_TASK_COMPLETE_1 = "(//button[contains(@class,'mdl-button mdl-js-button')]//span)[1]"
